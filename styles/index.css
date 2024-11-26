@@ -1,0 +1,54 @@
+:root {
+  --color-rose-800: #7a284e;
+  --color-rose-50: #fff7fb;
+  --color-stone-900: #312e2c;
+  --color-stone-600: #5f564d;
+  --color-stone-150: #e3ddd7;
+  --color-stone-100: #f3e5d7;
+  --color-brown-800: #854632;
+  --line-height-1600: 1600%;
+  --line-height-600: 600%;
+  --line-height-500: 500%;
+  --line-height-400: 400%;
+  --line-height-300: 300%;
+  --line-height-200: 200%;
+  --line-height-150: 150%;
+  --line-height-100: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-gray-900);
+  font-family: "Outfit", sans-serif;
+}
+
+.recipe {
+  padding: 0;
+}
+
+.recipe img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+}
+
+footer a {
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+}
+
+/* Desktop */
+@media (min-width: 1440px) {
+}
