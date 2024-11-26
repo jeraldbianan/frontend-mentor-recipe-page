@@ -127,6 +127,7 @@ body {
   font-family: "Young Serif", serif;
   font-size: 1.75rem;
   font-weight: 400;
+  line-height: var(--line-height-100);
 }
 
 .recipe-ingredients ul {
@@ -176,6 +177,7 @@ body {
   font-family: "Young Serif", serif;
   font-size: 1.75rem;
   font-weight: 400;
+  line-height: var(--line-height-100);
 }
 
 .recipe-instructions ol {
@@ -219,6 +221,7 @@ body {
   font-family: "Young Serif", serif;
   font-size: 1.75rem;
   font-weight: 400;
+  line-height: var(--line-height-100);
 }
 
 .recipe-nutrition > p {
@@ -348,5 +351,10 @@ footer a:active {
 @media (min-width: 1440px) {
   .recipe {
     max-width: 736px;
+  }
+
+  .recipe-nutrition ul li p,
+  .recipe-nutrition ul li span {
+    width: 288px;
   }
 }
