@@ -75,7 +75,7 @@ body {
   display: flex;
   flex-direction: column;
   width: calc(100% - 64px);
-  margin: 32px 32px 0 32px;
+  margin-top: 32px;
   padding: 24px;
   border-radius: 12px;
 }
@@ -169,7 +169,7 @@ body {
   display: flex;
   flex-direction: column;
   width: calc(100% - 64px);
-  margin: 32px;
+  margin: 32px 0;
 }
 
 .recipe-instructions h2 {
@@ -213,7 +213,7 @@ body {
   display: flex;
   flex-direction: column;
   width: calc(100% - 64px);
-  margin: 32px 32px 40px 32px;
+  margin: 32px 0 40px 0;
 }
 
 .recipe-nutrition h2 {
@@ -269,7 +269,8 @@ body {
 
 .recipe-nutrition ul li p,
 .recipe-nutrition ul li span {
-  width: 115.5px;
+  max-width: 115.5px;
+  width: 100%;
 }
 
 footer {
@@ -317,31 +318,31 @@ footer a:active {
 
   .recipe-preparation {
     width: calc(100% - 80px);
-    margin: 32px 40px 0 40px;
+    margin: 32px 0 0;
   }
 
   .recipe-ingredients {
     width: calc(100% - 80px);
-    margin: 32px 40px 32px 40px;
+    margin: 32px 0;
   }
 
   .recipe-instructions {
     width: calc(100% - 80px);
-    margin: 32px 40px 32px 40px;
+    margin: 32px 0;
   }
 
   .recipe-nutrition {
     width: calc(100% - 80px);
-    margin: 32px 40px 40px 40px;
+    margin: 32px 0 40px 0;
   }
 
   .recipe-nutrition ul li p,
   .recipe-nutrition ul li span {
-    width: 228px;
+    max-width: 228px;
   }
 
   footer {
-    margin: 0px 40px 20px 40px;
+    margin: 0px 40px 20px;
     background-color: var(--color-stone-100);
     margin-bottom: 128px;
   }
@@ -355,6 +356,6 @@ footer a:active {
 
   .recipe-nutrition ul li p,
   .recipe-nutrition ul li span {
-    width: 288px;
+    max-width: 288px;
   }
 }
