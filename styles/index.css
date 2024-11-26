@@ -298,7 +298,7 @@ footer a:active {
   .recipe {
     max-width: 616px;
     width: 100%;
-    margin: 126px 0 0;
+    margin: 128px 0 0;
     border-radius: 24px;
   }
   .recipe .image-container {
@@ -311,7 +311,7 @@ footer a:active {
     height: 300px;
   }
 
-  .recipe .recipe-header h2 {
+  .recipe .recipe-header h1 {
     font-size: 2.5rem;
   }
 
